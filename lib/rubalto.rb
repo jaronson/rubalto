@@ -8,5 +8,4 @@ require 'rubalto/string'
 require 'rubalto/html_renderer'
 
 module Rubalto
-  TEMPLATES_DIR = File.expand_path('../templates', __FILE__)
 end

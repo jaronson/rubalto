@@ -7,16 +7,6 @@ class Rubalto::HtmlRenderer
   end
 
   def render
-    @html = build_html
-
-    dir   = Rubalto::TEMPLATES_DIR
-    css   = File.read(File.join(dir, 'rubalto.css'))
-    js    = File.read(File.join(dir, 'rubalto.js'))
-    eruby = Erubis::Eruby.new(File.read(File.join(dir, 'rubalto.html.erb')))
-    eruby.result(:css => css, :js => js, :document => @document, :html => @html)
-  end
-
-  def build_html
     doc = Nokogiri::HTML::DocumentFragment.parse('')
     Nokogiri::HTML::Builder.with(doc) do |h|
       add_html_element(h, @document.print_space)
