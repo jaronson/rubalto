@@ -7,7 +7,6 @@ SPEC_ROOT = File.dirname(__FILE__)
 require 'rspec'
 require 'nokogiri'
 require 'rubalto'
-require 'erubis'
 
 RSpec.configure do |config|
 end
