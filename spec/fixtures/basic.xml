@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://schema.ccs-gmbh.com/ALTO" xsi:schemaLocation="http://schema.ccs-gmbh.com/ALTO http://www.loc.gov/ndnp/xml/alto-1-4.xsd">
+  <Description>
+    <MeasurementUnit>inch1200</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>././0071.tif</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRPROCESSING_1">
+      <preProcessingStep>
+        <processingStepDescription>Align</processingStepDescription>
+        <processingStepDescription>CCS OCR Preprocessing Filter</processingStepDescription>
+        <processingSoftware>
+          <softwareCreator>CCS Content Conversion Specialists GmbH, Germany</softwareCreator>
+          <softwareName>CCS docWORKS</softwareName>
+          <softwareVersion>6.4-0.11</softwareVersion>
+        </processingSoftware>
+      </preProcessingStep>
+      <ocrProcessingStep>
+        <processingSoftware>
+          <softwareCreator>ABBYY (BIT Software), Russia</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>7.1</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+      <postProcessingStep>
+        <processingStepDescription>CCS OCR Postprocessing Filter</processingStepDescription>
+      </postProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" HEIGHT="28629" WIDTH="21117" POSITION="Right" PC="0.871" QUALITY="OK">
+      <TopMargin ID="P1_TM00001" HPOS="0" VPOS="0" WIDTH="21118" HEIGHT="808"/>
+      <LeftMargin ID="P1_LM00001" HPOS="0" VPOS="808" WIDTH="803" HEIGHT="27057"/>
+      <RightMargin ID="P1_RM00001" HPOS="20306" VPOS="808" WIDTH="813" HEIGHT="27057"/>
+      <BottomMargin ID="P1_BM00001" HPOS="0" VPOS="27865" WIDTH="21118" HEIGHT="765"/>
+      <PrintSpace ID="P1_PS00001" HPOS="803" VPOS="808" WIDTH="19503" HEIGHT="27057">
+        <TextBlock ID="P1_TB00006" HPOS="1139" VPOS="2792" WIDTH="2778" HEIGHT="255" language="eng" STYLEREFS="TXT_5 PAR_LEFT">
+          <TextLine ID="P1_TL00006" HPOS="1143" VPOS="2858" WIDTH="2769" HEIGHT="180">
+            <String ID="P1_ST00025" HPOS="1143" VPOS="2858" WIDTH="978" HEIGHT="175" CONTENT="VOLUME" WC="0.98" CC="000000"/>
+            <SP ID="P1_SP00019" HPOS="2121" VPOS="3033" WIDTH="165"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
