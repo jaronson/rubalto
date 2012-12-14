@@ -7,9 +7,7 @@ require 'rubalto/text_line'
 require 'rubalto/string'
 require 'rubalto/html_renderer'
 
-if defined?(Rails)
-  require 'rubalto/engine'
-end
+require 'rubalto/engine'
 
 module Rubalto
 end
